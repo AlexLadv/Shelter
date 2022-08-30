@@ -1,0 +1,126 @@
+.container {
+	max-width: 1260px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.btn-reset {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+.site-container {
+	overflow: hidden;
+}
+
+.flex-v-center {
+	display: flex;
+  align-items: center;
+}
+
+.flex-all-sb {
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column-start {
+	display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-v-center {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  color: var(--ebony-color);
+  margin-bottom: 25px;
+}
+
+.title--center {
+  text-align: center;
+}
+
+.descr {
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--storm-color);
+  margin-bottom: 60px;
+}
+
+.descr--center {
+  text-align: center;
+}
+
+/* .site-container {
+	overflow: hidden;
+} */
+
+/* .flex {
+	display: flex;
+} */
+
+/* input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+} */
+
+/* .section-title {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	color: var(--dark-color);
+} */
+
+/* .section-title--center {
+	text-align: center;
+	max-width: none;
+} */
+
+/* .btn {
+	font-weight: 800;
+	font-size: 12px;
+	letter-spacing: 2.18182px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	color: var(--white-color);
+	padding: 33px 80px;
+} */
+
+/* input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+} */
+
+
+
+

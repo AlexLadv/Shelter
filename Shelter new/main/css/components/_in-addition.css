@@ -1,0 +1,117 @@
+.in-addition {
+  background: #F6F6F6;
+  padding-top: 78px;
+  padding-bottom: 100px;
+}
+.in-addition__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in-addition__information {
+  margin-left: 28px;
+  max-width: 380px;
+}
+.information__title {
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.information__subscribe {
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+}
+.information__bank {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  padding: 10px 15px 10px 60px;
+  background: #F1CDB3;
+  border-radius: 9px;
+  position: relative;
+  margin-top: 20px;
+}
+.information__bank:hover {
+  background: #FDDCC4;
+}
+.information__bank::after {
+  content: url(../../../assets/images/icon/credit-card.svg);
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.information__text {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+  margin-top: 31px;
+}
+
+@media (max-width: 1279px) {
+  .in-addition__information {
+    order: 0;
+    margin-left: 0;
+    margin-bottom: 57px;
+  }
+  .in-addition__wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .in-addition__img {
+    order: 1;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .in-addition {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+  /* .in-addition {
+    padding-top: 46px;
+  } */
+  .in-addition__information {
+    margin-bottom: 46px;
+  }
+  .in-addition__img {
+    width: calc(86%);
+    transform: translateY(-4px);
+  }
+  .information__title {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    width: 229px;
+  }
+  .information__subscribe {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .information__subscribe {
+    letter-spacing: 0;
+    margin-bottom: 38px;
+  }
+  .information__bank {
+    font-size: 15px;
+    position: relative;
+    left: 8px;
+    padding: 14px 15px 12px 60px;
+  }
+  .information__text {
+    text-align: justify;
+    padding: 0 10px;
+  }
+}

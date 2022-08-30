@@ -1,0 +1,99 @@
+.burger {
+  display: none;
+  cursor: pointer;
+  margin-right: 43px;
+  z-index: 100;
+  transition: transform 0.5s ease;
+}
+.b1, .b2, .b3 {
+  width: 30px;
+  height: 2px;
+  background-color: #000000;
+  margin: 8px 0;
+  transition: 0.3s;
+}
+.change {
+  transform: translateX(230px);
+  transition: transform 0.5s ease;
+}
+.change .b1 {
+  transform: rotate(-90deg) translate(-9px, 9px);
+}
+.change .b2 {
+  transform: rotate(90deg) translate(-1px, 1px);
+}
+.change .b3 {
+  transform: rotate(-90deg) translate(11px, -11px);
+}
+.burger__menu {
+  height: 864px;
+  background-color: #ffffff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 0 38px;
+  right: -325px;
+  top: 0;
+  z-index: 2;
+  padding-top: 130px;
+  transition: 0.5s;
+}
+.burger__active {
+  right: 0px;
+}
+.modBg {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(41, 41, 41, 0.6);
+  z-index: 2;
+}
+.gam-header__logo {
+  position: absolute;
+  top: 31px;
+  left: 10px;
+}
+.burger__link {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 159%;
+  color: #545454;
+  cursor: pointer;
+  text-align: center;
+}
+.burger__link:hover {
+  color: #292929;
+}
+.burger__link.active-burger {
+  color: #292929;
+  border-bottom: 3px solid #F1CDB3;
+}
+.burger__link + .burger__link {
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .burger {
+    display: block;
+  }
+}
+@media (max-width: 690px) {
+  .change {
+    transform: translateX(170px);
+  }
+}
+@media (max-width: 575px) {
+  .change {
+    transform: translateX(120px);
+  }
+}
+@media (max-width: 520px) {
+  .change {
+    transform: translateX(0px);
+  }
+}

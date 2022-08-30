@@ -1,0 +1,139 @@
+.footer {
+  background: url(../../../assets/images/icon/noise_transparent@2x.svg), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) , #211F20;
+  padding-top: 40px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contacts {
+  max-width: 280px;
+  margin-top: 17px;
+}
+.footer__location {
+  max-width: 322px;
+  padding-left: 10px;
+  margin-top: 17px;
+}
+.footer__title {
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+.footer__text {
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  position: relative;
+  display: block;
+}
+.footer__text--email {
+  margin-top: 43px;
+  padding-left: 59px;
+}
+.footer__text--email::after {
+  content: url(../../../assets/images/icon/mail.svg);
+  position: absolute;
+  top: -5px;
+  left: 0px;
+}
+.footer__text--phone {
+  margin-top: 48px;
+  padding-left: 59px;
+}
+.footer__text--phone::after {
+  content: url(../../../assets/images/icon/phone.svg);
+  position: absolute;
+  top: -5px;
+  left: 0px;
+}
+.footer__text--pin {
+  margin-top: 36px;
+  padding-left: 41px;
+}
+.footer__text--pin2 {
+  position: relative;
+  margin-top: 32px;
+  padding-left: 41px;
+}
+.footer__text--pin2::after {
+  content: url(../../../assets/images/icon/pin.svg);
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+.footer__text--pin::after {
+  content: url(../../../assets/images/icon/pin.svg);
+  position: absolute;
+  top: -5px;
+  left: 0px;
+}
+
+@media (max-width: 1279px) {
+  .footer {
+    padding-top: 32px;
+  }
+  .footer__container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .footer__contacts, .footer__location {
+    margin-bottom: 65px;
+    margin-top: 0;
+  }
+  .footer__location {
+    padding-left: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    padding-top: 26px;
+  }
+  .footer__title {
+    font-size: 25px;
+  }
+  .footer__location-title {
+    max-width: 294px;
+    padding-left: 5px;
+    padding-bottom: 6px;
+  }
+  .footer__location, .footer__contacts {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__text--email {
+    padding-left: 58px;
+  }
+  .footer__text--phone {
+    padding-left: 60px;
+    padding-top: 3px;
+  }
+  .footer__text--email::after {
+    top: 0px;
+    left: 14px;
+  }
+  .footer__text--phone::after {
+    top: -2px;
+    left: 20px;
+  }
+  .footer__contacts{
+    margin-bottom: 45px;
+  }
+  .footer__location {
+    padding-left: 1px;
+    margin-bottom: 44px;
+  }
+  .footer__text--pin2 {
+    padding-left: 40px;
+    text-align: initial;
+  }
+  .footer__text--pin {
+    padding-left: 12px;
+    margin-top: 44px;
+  }
+  .footer__img {
+    width: 87%;
+  }
+}

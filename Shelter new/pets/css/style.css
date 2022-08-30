@@ -1,0 +1,13 @@
+/* No CSS */
+/* @import "_normalize.css"; */
+@import "_fonts.css";
+/* @import "_variables.css"; */
+/* @import "_vendor.css"; */
+@import "_global.css";
+/* @import "_overall.css"; */
+
+/* components imports */
+@import "./components/_header.css";
+@import "./components/_burger.css";
+@import "./components/_our-friend.css";
+@import "./components/_footer.css";
