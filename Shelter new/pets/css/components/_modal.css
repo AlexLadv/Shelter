@@ -1,0 +1,103 @@
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  padding: 15px;
+}
+.modal:hover .modal__btn-close {
+  background-color: #f1cdb3;
+}
+.modal__btn-close:hover {
+  background-color: #f1cdb3 !important;
+}
+.modal__blog:hover .modal__btn-close {
+  background-color: #F9F9F9;
+}
+.modal__blog {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  z-index: 200;
+  padding: 30px;
+  background-color: #F9F9F9;
+  border-radius: 9px;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+  max-width: 900px;
+  top: 50%;
+  margin: auto;
+  transform: translateY(-50%);
+}
+.modal__btn-close {
+  position: absolute;
+  right: -12px;
+  top: -22px;
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+  font-weight: 900;
+  color: #292929;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #F9F9F9;
+  font-weight: 100;
+  background-image: url(../../../assets/images/icon/close.svg);
+  background-size: 10px;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+.modal__img {
+  display: flex;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(58.33333% - 30px);
+}
+.modal__info {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(100% - 30px);
+}
+.modal__info-title {
+  font-size: 35px;
+  letter-spacing: 0.7px;
+  line-height: 40px;
+  color: #545454;
+  font-family: "Georgia", sans-serif;
+  font-weight: normal;
+}
+.modal__info-rase {
+  font-family: "Arial";
+  font-size: 22px;
+  color: #4c4c4c;
+}
+.modal__info-description {
+  margin-top: 30px;
+  font-size: 15px;
+  line-height: 160%;
+  max-width: 500px;
+  font-family: "Arial", sans-serif;
+  color: #4c4c4c;
+}
+.modal__info-skill {
+  margin-top: 30px
+}
+ul li {
+  list-style: none;
+}
+.modal__info-skill li {
+  padding: 5px 0;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: #4c4c4c;
+}
+.modal__info-skill-dots {
+  color: #f1cdb3;
+  margin-right: 3px;
+}
